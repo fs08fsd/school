@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;}
+
+body{
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(125deg,#9a6634,#014a13,#2980b9,#e74c3c,#8e44ad);
+    background-size: 400% 400%;
+    animation: bganimation 15s infinite;
+    height: 100%;
+
+
+
+}
+
+
+
+
+h1{ 
+    text-transform: uppercase;
+    margin: 0;}
+    
+
+
+.text{
+    color: fff;
+    text-align: uppercase;
+    margin: 360px 0;
+    font-size: 22px;
+}
+
+a{
+    display: inline-block;
+    padding: 10px ;
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+ }
+
+ .banner-text p{
+    padding: 0 8%;
+    font-family: merienda;}
+
+@keyframes bganimation{
+    0%
+    {
+        background-position: 0% 50%;
+    } 
+
+    50%
+    {
+        background-position: 100% 50%;
+    } 
+
+    100%
+    {
+        background-position: 0% 50%;
+    } 
+
+    
+}
+
+@media screen and (min-width:375px){
+    .banner-text p{font-size: 15px;}
+    .banner-text h1{font-size: 15px;}
+  }
+
+  
+  @media screen and (min-width:390px){
+    .banner-text p{font-size: 10px;}
+    .banner-text h1{font-size: 15px;}
+  }
+
+  @media screen and (min-width:414px){
+    .banner-text p{font-size: 15px;}
+    .banner-text h1{font-size: 20px;}
+  }
+
+  @media screen and (min-width:375px){
+    .banner-text p{font-size: 15px;}
+    .banner-text h1{font-size: 20px;}
+  }
+
+  @media screen and (min-width:834px){
+    .banner-text p{font-size: 20px;}
+    .banner-text h1{font-size: 25px;}
+  }
+
+  @media screen and (min-width:384px){
+    .banner-text p{font-size: 20px;}
+    .banner-text h1{font-size: 25px;}
+  }
+
+  @media screen and (min-width:360px){
+    .banner-text p{font-size: 10px;}
+    .banner-text h1{font-size: 15px;}
+    
+  }
+
+  @media screen and (min-width:810px){
+    .banner-text p{font-size: 10px;}
+    .banner-text h1{font-size: 15px;}
+  }
+
+  @media screen and (min-width:768px){
+    .banner-text p{font-size: 15px;}
+    .banner-text h1{font-size: 20px;}
+  }
+
+  @media screen and (min-width:800px) and ( min-width:667px){
+    .banner-text p{font-size: 15px;}
+    .banner-text h1{font-size: 25px;}
+  }
